@@ -1,0 +1,41 @@
+html{font-size:62.5%;}
+body,img{margin:0;padding:0;}
+body{background:#d3d3d3;}
+.header{
+    position:fixed;top:0;width:100%;padding:1rem 0;text-align:center;
+    background:#5fc0cd;color:#fff;font-size:2rem;
+}
+.header>a{
+    max-height:2rem;color:#fff;text-decoration:none;cursor:pointer;
+}
+.ableft{position:absolute;left:1rem;}
+.abright{position:absolute;right:1rem;}
+.content{
+    margin-top:3.5rem;font-size:1rem;
+
+}
+.content div{
+    margin:1rem 0;background:#fff;display:flex;flex-wrap:nowrap;
+}
+.content img{
+    max-height:3rem;margin:0 1rem;padding:0.5rem 0;vertical-align:baseline;
+
+}
+.content>div>span{margin:1rem 1rem;
+    border-right:0.15rem solid #d3d3d3;
+
+}
+.content>div>input{
+    border:none;width:100%;outline:none;
+}
+.fonter{
+    float:left;width:100%;background:#5fc0cd;
+    font-size:2rem;color:#fff;text-align:center;
+}
+.fonter>button{
+    width:100%;padding:1rem 0;background:#5fc0cd;font-weight:600;
+    font-size:2rem;color:#fff;cursor:pointer;outline:none;border:none;
+}
+.remenber{
+    float:right;color:#5fc0cd;margin:1rem 1rem;
+}
