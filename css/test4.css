@@ -11,7 +11,7 @@ body{background:#d3d3d3;}
 .ableft{position:absolute;left:1rem;}
 .abright{position:absolute;right:1rem;}
 .content{
-    margin-top:3.5rem;font-size:1rem;
+    margin-top:3.5rem;font-size:1rem;border-top:0.1rem solid #5fc0cd;
 
 }
 .content div{
